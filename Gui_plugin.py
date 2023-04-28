@@ -227,5 +227,5 @@ if __name__ == "__main__":
     app = wx.App()
     f = Gui(None, -1)
     f.Show()
-    print(app.GetAppName())
+    # print(app.GetAppName())
     app.MainLoop()
